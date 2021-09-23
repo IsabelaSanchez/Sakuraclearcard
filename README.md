@@ -5,7 +5,7 @@
 🌈<a href="">Podes verlo aca</a>🌈
 
   <h1>Movil 📱</h1>
-    <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/carrd34.png" alt="" />
+    <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/movil.png" alt="" />
 
   <h1>Desktop 💻</h1>
    <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/Sakura-clear-card%20(89.png" alt="" />
