@@ -77,8 +77,8 @@ export const Close = styled(MdClose)`
   font-size: 2.5rem;
   margin-bottom: 450px;
   color: #fff;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   font-weight: bold;
 

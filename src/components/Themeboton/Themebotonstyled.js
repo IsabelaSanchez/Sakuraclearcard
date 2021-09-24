@@ -9,6 +9,6 @@ export const Icon = styled.div`
   cursor: pointer;
 
   div {
-    font-size: 25px;
+    font-size: 1.25rem;
   }
 `;

@@ -6,7 +6,8 @@ export const Navigation = styled.nav`
   display: flex;
   // justify-content: space-between;
   align-items: center;
-  padding: 0.625rem 0 0 3.125rem;
+  padding: 0.9375rem 0.625rem;
+
   .wavy {
     text-decoration: underline wavy #d62ad0;
     text-underline-offset: 9px;
