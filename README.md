@@ -5,7 +5,7 @@
 🌈<a href="https://sakura-clowcards.netlify.app/">Podes verlo aca</a>🌈
 
   <h1>Movil 📱</h1>
-    <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/movil.png" alt="" />
+    <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/movill.png" alt="" />
 
   <h1>Desktop 💻</h1>
    <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/Sakura-clear-card%20(89.png" alt="" />
