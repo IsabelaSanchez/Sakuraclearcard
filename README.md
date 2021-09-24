@@ -2,7 +2,7 @@
 
 <p> Proyecto realizado con React styled-components y librerias Animate css para las animaciones ,se pueden ver las 53  cartas ,agregar a favoritos y ver el detalle de las cartas  se agrego paginación , darkmode y modal 💫💫🌈</p>
 
-🌈<a href="">Podes verlo aca</a>🌈
+🌈<a href="https://sakura-clowcards.netlify.app/">Podes verlo aca</a>🌈
 
   <h1>Movil 📱</h1>
     <img src="https://github.com/flopixx/Sakuraclearcard/blob/master/src/img/movil.png" alt="" />
