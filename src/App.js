@@ -7,6 +7,7 @@ import SakuraProvider from "./Context/SakuraContext";
 import ThemeProvider from "./Context/Themecontext";
 import FavoritesProvider from "./Context/Favoritescontext";
 import Favorites from "./pages/Favorites";
+import Personajes from "./pages/Personajes/Personajes";
 
 const App = () => (
   <Router>
@@ -17,6 +18,7 @@ const App = () => (
             <Route path="/" element={<Homefirst />} />
             <Route path="/homecarts" element={<Homecarts />} />
             <Route path="/favorites" element={<Favorites />} />
+            <Route path="/personajes" element={<Personajes />} />
           </Routes>
           <GlobalStyle />
         </SakuraProvider>

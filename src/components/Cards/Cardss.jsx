@@ -48,9 +48,9 @@ const Cardss = ({
         </div>
         <div className="fav" onClick={togglefavorite}>
           {itemFav ? (
-            <span>🖤</span>
-          ) : <span>❤️</span> && clowCard ? (
-            <span>❤️</span>
+            <div>🖤</div>
+          ) : <div>❤️</div> && clowCard ? (
+            <div>❤️</div>
           ) : null}
         </div>
 

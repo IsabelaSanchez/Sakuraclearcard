@@ -1,0 +1,172 @@
+section {
+  background-image: url("../../img/celeste.jpeg");
+  height: 150vh;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: center;
+}
+.section,
+h1 {
+  padding: 10px 0;
+  color: #ffedbc;
+  font-weight: bold;
+}
+
+.section-center {
+  margin: 0 auto;
+  margin-top: 9rem;
+  width: 80vw;
+  height: 600px;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.person-img {
+  object-fit: cover;
+
+  margin: 0 auto;
+}
+.name {
+  padding: 0.625rem 0;
+  font-family: Delius Swash Caps;
+  font-weight: bold;
+  color: #000000;
+}
+.title {
+  padding: 0.625rem 0;
+}
+
+.text {
+  font-size: var(--fontmed);
+  font-family: Delius Swash Caps;
+  color: #ffedbc;
+  text-shadow: 6px 6px 18px #000;
+}
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: var(--transition);
+}
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+.icon {
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: var(--clr-primary-5);
+}
+.prev,
+.next {
+  position: absolute;
+  top: 200px;
+  transform: translateY(-50%);
+  background: var(--clr-grey-5);
+  color: var(--clr-white);
+  width: 1.25rem;
+  height: 1.25rem;
+  display: grid;
+  place-items: center;
+  border-color: transparent;
+  font-size: 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.prev {
+  left: 0;
+  display: block;
+  margin-right: 6px;
+  border: none;
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.3);
+
+  transition: 0.2s;
+  cursor: pointer;
+  color: white;
+}
+.next {
+  right: 0;
+  color: white;
+  display: block;
+  margin-right: 6px;
+  border: none;
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.3);
+
+  transition: 0.2s;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  section {
+    background-position: center center;
+    height: auto;
+  }
+
+  .section-center {
+    height: 800px;
+  }
+
+  .person-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .text {
+    font-size: var(--fontsmall);
+    margin-top: 1rem;
+  }
+}

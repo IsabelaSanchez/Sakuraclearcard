@@ -12,7 +12,6 @@ export const Carts = styled.div`
     transform: scale(1.1);
     cursor: pointer;
   }
-
   .html.sr .imagen {
     visibility: hidden;
   }

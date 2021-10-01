@@ -32,6 +32,8 @@ const Homecarts = () => {
               clowCard={card.clowCard}
               meaning={card.meaning}
               cardNumber={card.cardNumber}
+              sakuraCard={card.sakuraCard}
+              cardsReverse={card.cardsReverse.clowReverse}
             />
           ))}
         </Grid>
